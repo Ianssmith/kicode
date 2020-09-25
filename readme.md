@@ -1,2 +1,2 @@
 # kicode's freelance software development website!
-[kicode](kicodes.com)
+[kicode](http://kicodes.com)
