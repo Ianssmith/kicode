@@ -51,7 +51,8 @@ function Bubble(x, y, rad, Y, r,g,b, xspeed, yspeed, weight, weightO, weightI, c
   };
   
   this.changeColorW = function(){
-    this.col = color(random(230,255), random(230,255), random(230,255));
+    //this.col = color(random(230,255), random(230,255), random(230,255));
+    this.col = color(random(230,255), random(230,255), 0);
       
   };
     

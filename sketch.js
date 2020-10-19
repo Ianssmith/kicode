@@ -21,7 +21,7 @@ var weightC = 0.75;
 function setup(){
   createCanvas(windowWidth, windowHeight);
    for (var i = 0; i<50; i++){
-     bubbles[i] = new Bubble(randomGaussian(windowWidth/2, 50), randomGaussian(windowHeight/2,50), random(1,3), random(0.1), 255,255,255, /* for a random ass explosion uncomment speed as follows: randomGaussian(random(-7, 7), 2), randomGaussian(random(-7, 7), 2)*/random(-0.5,0.5), random(-0.5,0.5), weightA,weightao,weightai, 10, width-10, 10, height-10);
+     bubbles[i] = new Bubble(randomGaussian(windowWidth/2, 50), randomGaussian(windowHeight/2,50), random(1,3), random(0.1), 255,255,0, /* for a random ass explosion uncomment speed as follows: randomGaussian(random(-7, 7), 2), randomGaussian(random(-7, 7), 2)*/random(-0.5,0.5), random(-0.5,0.5), weightA,weightao,weightai, 10, width-10, 10, height-10);
    }
     for (var d = 0; d<50; d++){
        bubblesa[d] = new Bubble(randomGaussian(windowWidth/4, 50), randomGaussian(windowHeight/2,50), random(1,3), random(0.1), random(100,255),0,0, /* for a random ass explosion uncomment speed as follows: randomGaussian(random(-7, 7), 2), randomGaussian(random(-7, 7), 2)*/random(-0.5,0.5), random(-0.5,0.5), weightB,weightbo,weightbi), 10, width-10, 10, height-10; 
